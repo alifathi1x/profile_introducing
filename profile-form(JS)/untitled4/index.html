@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Profile - abolfathi</title>
+</head>
+<body>
+<main>
+    <aside>
+        <ul class="Links">
+            <li onclick="Navigate(0)" class="activeList">
+                <i class="fa-solid fa-house"></i>
+                <p>Home</p>
+            </li>
+            <li onclick="Navigate(1)">
+                <i class="fa-solid fa-user"></i>
+                <p>About Me</p>
+            </li>
+            <li onclick="Navigate(2)">
+                <i class="fa-solid fa-list"></i>
+                <p>Services</p>
+            </li>
+            <li onclick="Navigate(3)">
+                <i class="fa-solid fa-images"></i>
+                <p>Gallery</p>
+            </li>
+            <li onclick="Navigate(4)">
+                <i class="fa-solid fa-comments"></i>
+                <p>Contact Me</p>
+            </li>
+        </ul>
+    </aside>
+
+    <div class="swiper mySwiper">
+        <div class="slides-container swiper-wrapper">
+
+            <div class="swiper-slide home-slide">
+                <div class="HomeContent">
+                    <h1>Hi! I'm <span class="stylized-name">Abolfathi</span>.</h1>
+                    <h2>A <span class="profession">Web Developer</span></h2>
+                    <p class="hero-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia iste tempor
+                        dolor sit amet, quidem sapiente do nostrum mettetur.</p>
+                    <div class="buttonGroup">
+                        <button>Hire Me</button>
+                        <button>Contact Me</button>
+                    </div>
+                </div>
+
+                <div class="Sliding">
+                    <div class="top-right-corner">
+                        <div class="Img"></div>
+                        <div class="Img"></div>
+                    </div>
+                    <img src="https://picsum.photos/800/600?random=1" alt="Portfolio Image">
+                    <div class="bottom-left-corner">
+                        <div class="Img"></div>
+                        <div class="Img"></div>
+                    </div>
+                </div>
+
+                <p class="slide-help">Scroll for next slide <i class="fa-solid fa-arrow-right fa-shake"></i></p>
+            </div>
+
+            <div class="swiper-slide about-slide">
+                <div class="about-me">
+                    <div class="heading">About Me</div>
+                    <div class="sub-heading">I'm ALI, <span class="profession">A Web Developer</span></div>
+
+                    <p class="about-me-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iure, iste debitis unde maiores
+                        earum, ipsam autem quo magni sunt nisi at ullam nostrum pariatur soluta mollitia omnis
+                        consectetur qui similique doloribus vitae sit est in modi. Officia libero, animi repellendus
+                        debitis laborum ipsa exercitationem ut ex. Natus ullam efficitia qui fuga optio incidunt, ipsum
+                        atque ducimus quas ad eveniet nulla sit consectetur voluptate inventore possimus quae provident,
+                        repudiandae atque sed quasi mollitia omnis error. Nisi animi porro asperiores ratione
+                        voluptatibus commodi, architecto officia nobis ducimus sint, placeat enim? Ab obcaecati ad
+                        provident et possimus. Ullam ipsa laborum sint autem!
+                    </p>
+
+                    <div class="about-me-division">
+                        <div class="about-me-table">
+                            <div><span>Experience:</span> 2 years</div>
+                            <div><span>Country:</span>Iran</div>
+                            <div><span>Availability:</span> 24/7</div>
+                            <div><span>Satisfied clients:</span> 100%</div>
+                            <div><span>Age:</span> 24</div>
+                            <div><span>Phone:</span> 123-456-7890</div>
+                            <div><span>Language Used:</span> HTML</div>
+                            <div><span>Degree:</span> CS</div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Python</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Django</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:60%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+
+                    <div class="buttonGroup">
+                        <button>Hire Me</button>
+                        <button>Contact Me</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide services-slide">
+                <div class="services">
+                    <h1 class="heading">Services</h1>
+
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-pen-ruler"></i>
+                        </div>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quod.</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quod.</p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <h2>SEO Optimization</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quod.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide gallery-slide">
+                <div class="gallery">
+                    <h1 class="heading">My Projects</h1>
+                    <div class="projects-grid">
+                        <div class="project">
+                            <img src="https://picsum.photos/200/300?random=1" alt="Project 1">
+                        </div>
+                        <div class="project">
+                            <img src="https://picsum.photos/200/300?random=2" alt="Project 2">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide contact-slide">
+                <div class="contactMe">
+                    <h1 class="heading">Contact Me</h1>
+
+                    <div class="contact-info">
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Mobile No</h3>
+                            <p>123-456-7890</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Location</h3>
+                            <p>Somewhere On Earth</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>abc123@gmail.com</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-globe"></i>
+                            <h3>Website</h3>
+                            <p>www.abc123.com</p>
+                        </div>
+                    </div>
+
+                    <form>
+                        <h2>Send Me A Message</h2>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea rows="5" placeholder="Type your Message Here..."></textarea>
+                        <button class="primary">Send</button>
+                    </form>
+
+                    <div class="SocialLinks">
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+
+                    <footer>
+                        <p>Copyright © 2025 abolfathi. All rights reserved.</p>
+                    </footer>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>
+</body>
+</html>
